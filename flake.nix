@@ -10,7 +10,7 @@
       inputs.flake-utils.follows = "flake-utils";
     };
     tokenizers = {
-      url = "github:jgus/tokenizers-flake/v0.23";
+      url = "github:jgus/tokenizers-flake/v0.22";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
       inputs.flake-lib.follows = "flake-lib";
