@@ -10,7 +10,7 @@
       inputs.flake-utils.follows = "flake-utils";
     };
     tokenizers = {
-      url = "github:jgus/tokenizers-flake/v0.22";
+      url = "github:jgus/tokenizers-flake";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
       inputs.flake-lib.follows = "flake-lib";
@@ -61,15 +61,11 @@
                   mode = "resolve";
                 }
               ];
+              siblingRefsInPin = true;
             };
             update-branches = flake-lib.lib.mkUpdateBranches {
               inherit pkgs source;
               pinSchema = "pypi";
-              branchOwnedFiles = [
-                "pin.nix"
-                "flake.lock"
-                "flake.nix"
-              ];
             };
           };
         }) // {
