@@ -94,11 +94,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1788265559,
+        "lastModified": 1788350417,
         "narHash": "sha256-MCxon6lyDyan8db5oB4is0Mk9SWEr2VBADguenxikcU=",
         "owner": "jgus",
         "repo": "tokenizers-flake",
-        "rev": "b4f6dd9e138d6ab2d0b43d1bd10ebae10585c4cb",
+        "rev": "491f6f0a789aa19446acbafa088e98aa4dd67c26",
         "type": "github"
       },
       "original": {
